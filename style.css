@@ -1,0 +1,77 @@
+/* Contenido del archivo style.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    transition: background 0.3s, color 0.3s;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    background-color: #f0f0f0;
+}
+
+#portfolio-title {
+    color: #ffffff;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Nueva regla para mejorar la estética de la información personal */
+#personal-info {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Botón de volver al inicio */
+#go-back {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#go-back:hover {
+    background-color: #0056b3;
+}
